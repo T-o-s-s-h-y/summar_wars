@@ -19,7 +19,7 @@ d = (m * (p - 1) * (q - 1) + 1) / e
 M = c**d % n
 
 s = ''
-(M.to_s.length / 2).times { |num|
+(M.to_s.length / 2).times do |num|
   s << ('A'..'Z').map(&:to_s)[M.to_s[2 * num, 2].to_i - 1]
-}
+end
 puts s
