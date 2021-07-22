@@ -1,6 +1,4 @@
-=begin
-  p×q=177773となる素数pとqを求めよ。(p<q)
-=end
+# p×q=177773となる素数pとqを求めよ。(p<q)
 
 require 'prime'
 
